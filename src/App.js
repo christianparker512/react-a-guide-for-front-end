@@ -11,7 +11,8 @@ function App() {
 
   const mObj = {
     name: "Quincy",
-    age: 12
+    age: 12,
+    description: "Black and White Shaggy dog"
   }
 
   const inputPlaceholder = 'Enter Your Details'
@@ -24,8 +25,10 @@ function App() {
       <h3>Full Name: {getFullName(firstName, lastName)}</h3>
         <p> Age {age}</p>
         <p> Dog's name: {mObj.name}</p>
+        <p> Description: {mObj.description}</p>
         <p>Age: {mObj.age}</p>
-        <p>Job: {job}</p>
+        {/*<p>Job: {job}</p>*/}
+
       {mArray[0]}
       <input placeholder={inputPlaceholder}
       autoComplete />
