@@ -22,6 +22,7 @@ function App() {
   return (
     <div className="App">
       <h3>Full Name: {getFullName(firstName, lastName)}</h3>
+        <p> Age {age}</p>
         <p> Dog's name: {mObj.name}</p>
         <p>Age: {mObj.age}</p>
         <p>Job: {job}</p>
