@@ -15,6 +15,8 @@ function App() {
     description: "Black and White Shaggy dog"
   }
 
+  //React.createElement("div", {
+  
   const inputPlaceholder = 'Enter Your Details'
 
   const getFullName = (firstName, lastName) => {
